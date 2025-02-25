@@ -1,0 +1,46 @@
+/**/
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(15, 15, 88);
+}
+ 
+.formulario{
+    background-color: rgb(15, 45, 76);
+    padding: 30px;   /*espaçamento interno*/
+    border-radius: 15px;
+    box-shadow: 3 3px 8px rgba(113, 172, 232, 0.1); /*sombra suave*/
+    width: 50%;
+}   
+
+form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 30px;
+}
+
+input[type="text"], input[type="password"]{
+     width: 89%;
+     padding: 12px;
+     margin: 10px 0;
+     border: 1px solid slateblue;
+     border-radius: 5px;
+    font-size: 14px;
+}
+input[type ="submit"]{
+    width: 90%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 11px;
+    border: none;
+    border-radius:35px;
+    cursor: cell;
+    font-size: 16px;
+}
+input[type ="submit"]:hover{
+    background-color:rgb(44, 172, 130) ;
+}
